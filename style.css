@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather',serif;
+    background-color: #ebf2ff;
+}
+
+.nav_class {
+
+display: flex;
+justify-content: space-between;
+background-color: white;
+}
+
+.nav_image_class {
+   width: 100px;
+}
+
+.nav_logo_class {
+    width: 100%;
+    margin-left: 35px;
+}
+
+.nav_button_class {
+    margin: 16px 44px ;
+    background-image: linear-gradient(
+        to left,
+        #F11A7B 20%,
+        #F31559 60%,
+        #ff2c02 100%
+    );
+    color: white;
+    font-weight: 600;
+    padding: 10px 32px ;
+    border-radius: 4px;
+    border: none;
+}
+.nav_button_class:hover {
+    border:  2px solid #F31559;
+    cursor: pointer;
+}
+
+.button_class {
+    
+    background-image: linear-gradient(
+        to left,
+        #F11A7B 20%,
+        #F31559 60%,
+        #ff2c02 100%
+    );
+    color: white;
+    font-weight: 600;
+    padding: 10px 32px ;
+    border-radius: 4px;
+    border: none;
+    
+}
+.button_class:hover {
+    cursor: pointer;
+}
+
+
+.container {
+    padding: 20px;
+    max-width: 100%;
+}
+
+.container_section_image_class {
+    width: 100%;
+}
+
+.section_image_class {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.description_text_class {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1d3557;
+    margin: 20px 0px;
+}
+
+.explore_menu_text {
+    font-size: 36px;
+    margin: 30px 0px;
+    text-align: center;
+    color:#1d3557;
+    font-weight: 900;
+    
+}
+
+.explore_menu_container {
+    position: relative;
+}
+
+.explore_menu_gradient_bg {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    background-image: linear-gradient(
+        to left,
+        #F11A7B 20%,
+        #F31559 60%,
+        #ff2c02 100%
+    );
+    transform: skewY(-6deg);
+}
+
+@media (min-width: 768px ){
+    .main_section_class {
+        flex-direction: row-reverse;
+        display: flex;
+        align-items: center;
+        margin-top: 12px;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    .container {
+        max-width: 60%;
+        justify-content: center;
+        margin: 0px 188px;
+    }
+    .nav_image_class {
+        width: 132px;
+    }
+    .nav_button_class {
+        margin-top: 28px;
+    }
+    .section_description_class {
+        width: 100%;
+    }
+    .description_text_class {
+        font-size: 40px;
+    }
+
+}
