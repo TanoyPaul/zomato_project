@@ -84,9 +84,10 @@ background-color: white;
     margin: 20px 0px;
 }
 
+
 .explore_menu_text {
     font-size: 36px;
-    margin: 30px 0px;
+    margin: 28px 0px;
     text-align: center;
     color:#1d3557;
     font-weight: 900;
@@ -94,24 +95,29 @@ background-color: white;
 }
 
 .explore_menu_container {
-    position: relative;
+    margin-bottom: 20px;
 }
 
-.explore_menu_gradient_bg {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    z-index: -3;
-    background-image: linear-gradient(
-        to left,
-        #F11A7B 20%,
-        #F31559 60%,
-        #ff2c02 100%
-    );
-    transform: skewY(-6deg);
+.food_card {
+    background-color: #F9F9F9;
+    
 }
+
+.food_card_image {
+    width: 100%;
+   
+}
+
+.food_card_description {
+    padding: 16px;
+}
+
+.food_image {
+     width: 100%;
+     border-radius: 12px 12px 0px 0px;
+}
+
+
 
 @media (min-width: 768px ){
     .main_section_class {
@@ -120,6 +126,43 @@ background-color: white;
         align-items: center;
         margin-top: 12px;
     }
+
+    #pizza_card {
+        margin-top: -20px;
+        margin-bottom: 32px;
+    }
+    
+    .explore_menu_lists {
+        margin-top: 45px;
+        display: flex;
+        gap: 15px;
+        padding: 0 30px;
+    }
+
+    .explore_menu_container {
+        position: relative;
+    }
+    .explore_menu_gradient_bg {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 124%;
+        z-index: -3;
+        background-image: linear-gradient(
+            to left,
+            #F11A7B 20%,
+            #F31559 60%,
+            #ff2c02 100%
+        );
+        transform: skewY(-6deg);
+    }
+
+    .food_card {
+        margin: 8px;
+        width: 33.33%;
+        
+    }
     
 }
 
@@ -127,7 +170,7 @@ background-color: white;
     .container {
         max-width: 60%;
         justify-content: center;
-        margin: 0px 188px;
+        margin: 0px 220px;
     }
     .nav_image_class {
         width: 132px;
@@ -139,7 +182,13 @@ background-color: white;
         width: 100%;
     }
     .description_text_class {
-        font-size: 40px;
+        font-weight: 24px;
     }
+    
+    .food_card {
+        width: 80%;
+        border-radius: 8px;
+    }
+    
 
 }
