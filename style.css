@@ -118,6 +118,89 @@ background-color: white;
 }
 
 
+.update_description_bar {
+   text-align: center;
+   margin-top: -12px;
+   width: 100%;
+}
+
+.update_bar {
+    width: 30%;
+    height: 24px;
+    border-radius: 4px;
+    border: none;
+    padding: 8px;
+    margin: 4px;
+    margin-top: -8px;
+    outline: none;
+}
+
+
+#update_button_id {
+    padding: 12px 32px;
+}
+
+.zomato_dining {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 64px;
+    margin-bottom: 32px;
+   height: auto;
+}
+
+.update_image_text {
+    position: relative;
+}
+
+.update_text {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    padding: 0px 28px;
+    text-align: center;
+    color: #F9F9F9;
+}
+
+.footer {
+    background-image: linear-gradient(
+                to left,
+                #F11A7B 20%,
+                #F31559 60%,
+                #ff2c02 100%
+            );
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer_logo_zomato {
+    width: 60%;
+    
+}
+
+.footer_text {
+    color: #ede2e2;
+    margin: 4%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight: lighter;
+}
+
+.heading {
+    margin: 4px;
+}
+
+.copyright {
+    text-align: center;
+    font-weight:lighter;
+    color: #f0e7e7;
+    font-size: smaller;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 12px;
+}
 
 @media (min-width: 768px ){
     .main_section_class {
@@ -163,6 +246,53 @@ background-color: white;
         width: 33.33%;
         
     }
+
+    .zomato_dining {
+        width: 100%;
+        border-radius: 8px;
+        margin-top: 64px;
+        margin-bottom: 32px;
+       height: auto;
+    }
+    
+    .update_image_text {
+        position: relative;
+    }
+    
+    .update_text {
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        padding: 0px 28px;
+        text-align: center;
+        color: #F9F9F9;
+    }
+
+    
+    
+    .footer_container {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    .footer_logo_zomato {
+        width: 80%;
+        
+    }
+    
+    .footer_text {
+        color: #ede2e2;
+        margin: 4%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:large;
+        font-weight: lighter;
+    }
+    
+    .heading {
+        margin: 4px;
+    }
+    
     
 }
 
